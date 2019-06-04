@@ -2,8 +2,108 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9c19e88-aff7-4668-851d-1ea533433bfc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/database/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/database/queries/CreateArtist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/database/queries/DeleteArtist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/database/queries/EditArtist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/database/queries/FindArtist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/database/queries/GetAgeRange.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/database/queries/GetYearsActiveRange.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/database/queries/SearchArtists.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/database/queries/SetNotRetired.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/database/queries/SetRetired.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/database/queries/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/database/seeds/artist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/dist/0.189a1c9fba1a4c8eec41.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/dist/1.1dd82fc4881405725dd6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/dist/2.1137b8204e27f701855b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/dist/bundle.248b7220b8c4c804f942.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/dist/manifest.4568ef29797f17cb8ebb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/dist/vendor.16f33357444ea618ca85.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/src/actions/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/src/actions/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/src/components/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/src/components/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/src/components/artists/ArtistCreate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/src/components/artists/ArtistDetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/src/components/artists/ArtistEdit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/src/components/artists/ArtistFilter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/src/components/artists/ArtistIndex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/src/components/artists/ArtistMain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/src/components/artists/Paginator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/src/components/filters/Picker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/src/components/filters/Range.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/src/components/filters/Switch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/src/components/filters/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/src/reducers/ArtistsReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/src/reducers/ErrorReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/src/reducers/FilterCriteriaReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/src/reducers/SelectionReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/src/reducers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/src/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/style/materialize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/style/react-range.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/style/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-server-rendering/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-code-splitting/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/database/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/database/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/database/queries/CreateArtist.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/database/queries/CreateArtist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/database/queries/DeleteArtist.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/database/queries/DeleteArtist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/database/queries/EditArtist.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/database/queries/EditArtist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/database/queries/FindArtist.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/database/queries/FindArtist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/database/queries/GetAgeRange.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/database/queries/GetAgeRange.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/database/queries/GetYearsActiveRange.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/database/queries/GetYearsActiveRange.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/database/queries/SearchArtists.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/database/queries/SearchArtists.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/database/queries/SetNotRetired.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/database/queries/SetNotRetired.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/database/queries/SetRetired.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/database/queries/SetRetired.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/database/queries/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/database/queries/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/database/seeds/artist.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/database/seeds/artist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/dist/0.189a1c9fba1a4c8eec41.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/dist/0.189a1c9fba1a4c8eec41.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/dist/1.1dd82fc4881405725dd6.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/dist/1.1dd82fc4881405725dd6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/dist/2.1137b8204e27f701855b.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/dist/2.1137b8204e27f701855b.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/dist/bundle.248b7220b8c4c804f942.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/dist/bundle.248b7220b8c4c804f942.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/dist/manifest.4568ef29797f17cb8ebb.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/dist/manifest.4568ef29797f17cb8ebb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/dist/vendor.16f33357444ea618ca85.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/dist/vendor.16f33357444ea618ca85.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/src/actions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/src/actions/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/src/components/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/src/components/artists/ArtistCreate.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/src/components/artists/ArtistCreate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/src/components/artists/ArtistDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/src/components/artists/ArtistDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/src/components/artists/ArtistEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/src/components/artists/ArtistEdit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/src/components/artists/ArtistFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/src/components/artists/ArtistFilter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/src/components/artists/ArtistIndex.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/src/components/artists/ArtistIndex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/src/components/artists/ArtistMain.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/src/components/artists/ArtistMain.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/src/components/artists/Paginator.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/src/components/artists/Paginator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/src/components/filters/Picker.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/src/components/filters/Picker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/src/components/filters/Range.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/src/components/filters/Range.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/src/components/filters/Switch.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/src/components/filters/Switch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/src/components/filters/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/src/components/filters/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/src/reducers/ArtistsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/src/reducers/ArtistsReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/src/reducers/ErrorReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/src/reducers/ErrorReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/src/reducers/FilterCriteriaReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/src/reducers/FilterCriteriaReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/src/reducers/SelectionReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/src/reducers/SelectionReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/src/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/style/materialize.css" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/style/materialize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/style/react-range.css" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/style/react-range.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-code-splitting/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-code-splitting-and-deploying/webpack.config.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,19 +117,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/03-server-rendering/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+            <state relative-caret-position="231">
+              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03-server-rendering/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/02-code-splitting/package.json">
+        <entry file="file://$PROJECT_DIR$/03-server-rendering/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="78" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="78" />
+            <state relative-caret-position="210">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -72,12 +181,23 @@
         <option value="$PROJECT_DIR$/02-webpack-project/src/router.js" />
         <option value="$PROJECT_DIR$/02-code-splitting/webpack.config.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/02-code-splitting/CNAME" />
+        <option value="$PROJECT_DIR$/02-code-splitting/.env" />
         <option value="$PROJECT_DIR$/02-code-splitting/package.json" />
+        <option value="$PROJECT_DIR$/03-server/server.js" />
+        <option value="$PROJECT_DIR$/03-server/package.json" />
+        <option value="$PROJECT_DIR$/03-server/webpack.config.js" />
+        <option value="$PROJECT_DIR$/03-server/index.html" />
+        <option value="$PROJECT_DIR$/03-server/src/index.html" />
+        <option value="$PROJECT_DIR$/03-server-rendering/src/components/Header.js" />
+        <option value="$PROJECT_DIR$/03-server-rendering/server.js" />
+        <option value="$PROJECT_DIR$/03-server-rendering/Procfile" />
+        <option value="$PROJECT_DIR$/03-server-rendering/package.json" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1146" />
+    <option name="x" value="1147" />
     <option name="width" value="780" />
     <option name="height" value="758" />
   </component>
@@ -97,7 +217,7 @@
             <path>
               <item name="webpack-2-course-2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="webpack-2-course-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="02-code-splitting" type="462c0819:PsiDirectoryNode" />
+              <item name="03-server-rendering" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -115,7 +235,11 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Johnny\Documents\Projects\webpack-2-course-2018" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Johnny\Documents\Projects\webpack-2-course-2018\02-code-splitting\dist" />
       <recent name="C:\Users\Johnny\Documents\Projects\webpack-2-course\02-webpack-project\src" />
       <recent name="C:\Users\Johnny\Documents\Projects\webpack-2-course\01-js-modules\styles" />
       <recent name="C:\Users\Johnny\Documents\Projects\webpack-2-course\01-js-modules" />
@@ -146,18 +270,19 @@
       <workItem from="1559540434950" duration="12135000" />
       <workItem from="1559589453965" duration="8389000" />
       <workItem from="1559598273133" duration="279000" />
-      <workItem from="1559599386490" duration="777000" />
+      <workItem from="1559599386490" duration="3196000" />
+      <workItem from="1559603326862" duration="9444000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21586000" />
+    <option name="totallyTimeSpent" value="33449000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1146" y="0" width="780" height="758" extended-state="0" />
+    <frame x="1147" y="0" width="780" height="758" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26415095" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4097035" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -168,8 +293,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.5216" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3296" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3072" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -184,6 +309,7 @@
       <path value="$PROJECT_DIR$/02-webpack-proje" />
       <path value="$PROJECT_DIR$/02-webpack-projec" />
       <path value="$PROJECT_DIR$/02-webpack-project" />
+      <path value="$PROJECT_DIR$/02-code-splitting" />
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
@@ -248,7 +374,7 @@
     <entry file="file://$PROJECT_DIR$/02-code-splitting/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/02-code-splitting/.babelrc">
+    <entry file="file://$PROJECT_DIR$/02-code-splitting-and-deploying/.babelrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
@@ -257,14 +383,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/02-webpack-project/dist/manifest.0f613b0cba735589defe.js" />
     <entry file="file://$PROJECT_DIR$/02-webpack-project/dist/index.html" />
-    <entry file="file://$PROJECT_DIR$/02-code-splitting/src/index.html">
+    <entry file="file://$PROJECT_DIR$/02-code-splitting-and-deploying/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02-code-splitting/src/components/Header.js">
+    <entry file="file://$PROJECT_DIR$/02-code-splitting-and-deploying/src/components/Header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
@@ -274,7 +400,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02-code-splitting/src/index.js">
+    <entry file="file://$PROJECT_DIR$/02-code-splitting-and-deploying/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
@@ -284,7 +410,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02-code-splitting/src/router.js">
+    <entry file="file://$PROJECT_DIR$/02-code-splitting-and-deploying/src/router.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="693">
           <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
@@ -294,20 +420,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02-code-splitting/webpack.config.js">
+    <entry file="file://$PROJECT_DIR$/02-code-splitting-and-deploying/dist/0.189a1c9fba1a4c8eec41.js" />
+    <entry file="file://$PROJECT_DIR$/02-code-splitting-and-deploying/dist/1.1dd82fc4881405725dd6.js" />
+    <entry file="file://$PROJECT_DIR$/02-code-splitting-and-deploying/dist/2.1137b8204e27f701855b.js" />
+    <entry file="file://$PROJECT_DIR$/02-code-splitting-and-deploying/dist/bundle.248b7220b8c4c804f942.js" />
+    <entry file="file://$PROJECT_DIR$/02-code-splitting-and-deploying/dist/index.html" />
+    <entry file="file://$PROJECT_DIR$/02-code-splitting-and-deploying/dist/manifest.4568ef29797f17cb8ebb.js" />
+    <entry file="file://$PROJECT_DIR$/02-code-splitting-and-deploying/dist/vendor.16f33357444ea618ca85.js" />
+    <entry file="file://$PROJECT_DIR$/02-code-splitting/dist/CNAME" />
+    <entry file="file://$PROJECT_DIR$/02-code-splitting-and-deploying/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        <state relative-caret-position="21">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02-code-splitting/dist/0.189a1c9fba1a4c8eec41.js" />
-    <entry file="file://$PROJECT_DIR$/02-code-splitting/dist/1.1dd82fc4881405725dd6.js" />
-    <entry file="file://$PROJECT_DIR$/02-code-splitting/dist/2.1137b8204e27f701855b.js" />
-    <entry file="file://$PROJECT_DIR$/02-code-splitting/dist/bundle.248b7220b8c4c804f942.js" />
-    <entry file="file://$PROJECT_DIR$/02-code-splitting/dist/index.html" />
-    <entry file="file://$PROJECT_DIR$/02-code-splitting/dist/manifest.4568ef29797f17cb8ebb.js" />
-    <entry file="file://$PROJECT_DIR$/02-code-splitting/dist/vendor.16f33357444ea618ca85.js" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -315,10 +442,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02-code-splitting/package.json">
+    <entry file="file://$PROJECT_DIR$/03-server/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-code-splitting-and-deploying/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="43" column="23" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-server/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-server/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-server/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="9" column="78" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="78" />
+          <caret line="9" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-server/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-server-rendering/src/actions/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-code-splitting-and-deploying/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="2" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-server-rendering/src/components/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-server-rendering/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-server-rendering/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-server-rendering/src/components/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="26" column="55" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-server-rendering/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-server-rendering/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-server-rendering/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>

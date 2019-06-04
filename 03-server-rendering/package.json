@@ -6,13 +6,17 @@
   "scripts": {
     "clean": "rimraf dist",
     "build": "cross-env NODE_ENV=production npm run clean && webpack -p",
-    "serve": "webpack-dev-server",
-    "deploy": "npm run build && git subtree push --prefix dist origin gh-pages"
+    "serve": "cross-env NODE_ENV=production node server.js",
+    "dev": "cross-env NODE_ENV=development node server.js",
+    "deploy-elasticbeanstalk": "eb deploy",
+    "create-elasticbeanstalk": "eb init && eb create",
+    "open-elasticbeanstalk": "eb open"
   },
   "repository": "https://github.com/StephenGrider/WebpackProject",
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "faker": "^3.1.0",
     "lodash": "^4.17.2",
     "react": "15.4.1",
@@ -31,10 +35,12 @@
     "babel-preset-react": "^6.16.0",
     "cross-env": "^5.2.0",
     "css-loader": "^0.26.1",
+    "fstream-ignore": "^1.0.5",
     "html-webpack-plugin": "^3.2.0",
     "rimraf": "^2.6.3",
     "style-loader": "^0.13.1",
     "webpack": "2.2.0-rc.0",
+    "webpack-dev-middleware": "^1.9.0",
     "webpack-dev-server": "^2.2.0-rc.0"
   }
 }
